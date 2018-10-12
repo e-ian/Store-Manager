@@ -1,0 +1,274 @@
+:root{
+    --grey: #808080;
+    --white: #e7e7e7;
+    --white: #f5f5f5;
+    --slategray: #708090;
+
+}
+body, html{
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)),url(img/landing-page.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+a{
+    text-decoration: none;
+}
+
+.nav-bar{
+    max-width: 1200px;    
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.logo img{
+    padding-top: 5px;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    float: left;    
+}
+
+.nav-bar ul{    
+    display: flex;
+    flex-direction: row;   
+    margin-left: 30%;
+
+}
+.nav-bar li{
+    width: 150px;
+    height: 40px;    
+    text-align: center;
+    list-style: none;
+    
+}
+  
+.welcome{
+    padding-top: 45px;
+    width: 1200px;
+    margin-left: 100px;
+}
+
+.welcome h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+h1{
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.welcome p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-end: 0px;
+    margin-block-start: 0px;
+}
+
+.btn{
+    color: white;
+    background: #093374;
+    padding: 0.6rem 1.3rem;
+    border: 0;
+    border-radius: 4px;    
+}
+
+.btn:hover{
+    background: black;    
+}
+
+.login-div{
+    width: 320px;
+    height: 350px;
+    background:var(--grey);
+    color: black;
+    top: 50%;
+    left: 41%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+    border-radius: 5px;  
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+.login1-div{
+    width: 320px;
+    height: 350px;
+    background:var(--grey);
+    color: black;
+    top: 50%;
+    left: 47%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+    border-radius: 5px;  
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+
+.login-input{
+    width: 100%;
+    padding: 12px;
+    margin: 3px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;    
+}
+
+.login-button{
+    width: 45%;
+    padding: 12px;    
+    display: inline-block;
+    background-color: #093374;
+    color: var(--white);
+    border: 0;
+    cursor: pointer;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.login-button:hover{
+    background: black;
+}
+
+.log-cover{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)),url(img/mensuite.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.reg-cover{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)),url(img/menswear1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.container{
+    max-width: 1330px;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    background-color: white;
+}
+
+.header{
+    margin-top: 0;
+    line-height: 40px;
+    background-color: gray;
+}
+
+.app-name{
+    float: left;
+    color: black;    
+    padding-left: 28%;
+    margin-left: 0;
+}
+
+.app-name h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.top-display{
+    margin-top: 0;
+    min-height: 200px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/lady-in-store.jpeg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+
+.top-display h1{
+    padding-top: 50px;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.cat-btn{
+    color: white;
+    background: #0f4186;
+    padding: 0.6rem 1.3rem;
+    border: 0;
+    border-radius: 4px;      
+}
+.cat-btn:hover{
+    background: black;
+}
+
+.stockitems{
+    background: whitesmoke;
+}
+.stock-lists h2{
+    text-align: left;
+}
+.Sales-Records h2{
+    text-align: start;
+}
+.stock-lists table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 0.5px solid #708090;
+    text-align: left;
+    padding: 12px;
+}
+tr:nth-child(even){
+    background-color: #708090;
+
+}
+
+.topdisplay{
+    width: 100%;
+    margin-top: 0;
+    min-height: 250px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/mensuitesrack.jpeg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+.topdisplay h1{
+    text-align: left;
+}
+.app-name h1{
+    top: 16px;
+}
