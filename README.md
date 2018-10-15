@@ -3,3 +3,4 @@ StoreManager is an app that helps store owners manage product sales and inventor
 
 Here is a link to my project
 https://e-ian.github.io/Store-Manager/UI/index.html
+
