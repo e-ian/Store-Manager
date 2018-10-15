@@ -272,3 +272,82 @@ tr:nth-child(even){
 .app-name h1{
     top: 16px;
 }
+
+@media (max-width: 700px){
+    .nav-bar ul{
+        margin-left: 0;
+        flex-direction: column;
+        justify-content: left;
+    }
+    .header{
+        margin-top: 0;
+        line-height: 20px;
+        background-color: gray;
+    }
+    .btn{
+        color: white;
+        background: #093374;
+        padding: 0.3rem 0.7rem;
+        border: 0;
+        border-radius: 2px;    
+    }
+    .welcome{
+        padding-top: 20px;
+        width: 500px;
+        margin-left: 0px;
+    }
+    .stock-lists table{
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+
+    }
+    .welcome p{
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        font-style: italic;
+    }
+    td, th {
+        border: 0.5px solid #708090;
+        text-align: left;
+        padding: 1px;
+    }
+    .app-name h1{
+        text-align: left;
+        justify-content: left;
+    }
+
+}
+@media (max-width: 500px){
+    .nav-bar ul{
+        margin-left: 0;
+        flex-direction: column;
+        /* justify-content: left; */
+    }
+    .btn{
+        color: white;
+        background: #093374;
+        padding: 0.3rem 0.7rem;
+        border: 0;
+        border-radius: 2px;    
+    }
+    .welcome{
+        padding-top: 20px;
+        width: 250px;
+        margin-left: 0px;
+    }
+    .stock-lists table{
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+
+    }
+    .welcome p{
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        font-style: italic;
+    }
+
+}
