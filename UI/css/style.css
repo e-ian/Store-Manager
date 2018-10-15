@@ -208,11 +208,7 @@ p{
 .top-display{
     margin-top: 0;
     min-height: 200px;
-<<<<<<< HEAD
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/lady-in-store.jpeg);
-=======
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/store-interior.jpeg);
->>>>>>> feat-UI
     background-size: cover;
     background-position: center;
     text-align: center;
