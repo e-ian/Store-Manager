@@ -43,8 +43,10 @@ a{
 
 .nav-bar ul{    
     display: flex;
-    flex-direction: row;   
+    flex-direction: row; 
+    justify-content: flex-end;  
     margin-left: 30%;
+    padding: 5px;
 
 }
 .nav-bar li{
@@ -52,6 +54,7 @@ a{
     height: 40px;    
     text-align: center;
     list-style: none;
+    margin-left: -28px;
     
 }
   
@@ -111,7 +114,7 @@ p{
     background:var(--grey);
     color: black;
     top: 50%;
-    left: 41%;
+    left: 35%;
     position: absolute;
     transform: translate(-50%,-50%);
     box-sizing: border-box;
@@ -125,7 +128,7 @@ p{
     background:var(--grey);
     color: black;
     top: 50%;
-    left: 47%;
+    left: 40%;
     position: absolute;
     transform: translate(-50%,-50%);
     box-sizing: border-box;
@@ -241,10 +244,13 @@ p{
     background: #0f4186;
     padding: 0.6rem 1.3rem;
     border: 0;
-    border-radius: 4px;      
+    border-radius: 4px;         
 }
 .cat-btn:hover{
     background: black;
+}
+.btn-group{
+    margin-bottom: 15px;   
 }
 
 .stockitems{
@@ -259,7 +265,8 @@ p{
 .stock-lists table{
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    width: 100%;
+    width: 98%;
+    margin-bottom: 20px;
 }
 td, th {
     border: 0.5px solid #708090;
@@ -286,6 +293,7 @@ tr:nth-child(even){
 }
 .app-name h1{
     top: 16px;
+    text-align: start;
 }
 
 @media (max-width: 700px){
@@ -372,12 +380,19 @@ tr:nth-child(even){
     .welcome p{
         color: white;
         text-align: center;
-        font-size: 30px;
+        font-size: 25px;
         font-style: italic;
     }
     .wrapper{
         display: flex;
         flex-direction: column;
+    }
+    .welcome h1{
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        margin-top: 20px;
+        margin-left: 40px;
     }
     .logo img{
         padding-top: 5px;
